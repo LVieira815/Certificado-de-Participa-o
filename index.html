@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificado de Participação</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f8f0e3;
+            background-image: url('certificate-bg.jpg');
+            background-size: cover;
+            background-position: center;
+            direction: ltr;
+        }
+        .certificate-container {
+            background-color: rgba(255, 255, 255, 0.95);
+            border: 2px solid #d3c6b6;
+            padding: 60px;
+            width: 85%;
+            max-width: 900px;
+            text-align: center;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+            border-radius: 12px;
+            position: relative;
+        }
+        .certificate-title {
+            font-size: 28pt;
+            font-weight: bold;
+            color: #b8860b;
+            margin-top: 30px;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .participant-name {
+            font-size: 20pt;
+            color: #8b4513;
+            margin-top: 25px;
+            margin-bottom: 15px;
+        }
+        .event-details {
+            font-size: 16pt;
+            color: #555;
+            margin-bottom: 20px;
+            line-height: 1.5;
+        }
+        .presenter-info {
+            font-size: 13pt;
+            color: #777;
+            margin-top: 25px;
+            line-height: 1.5;
+        }
+        .signature {
+            margin-top: 40px;
+            border-top: 2px solid #b8860b;
+            padding-top: 15px;
+            font-size: 11pt;
+            color: #888;
+            text-align: center;
+        }
+        /* Estilos para a imagem decorativa (moldura) */
+        .certificate-frame {
+            position: absolute;
+            top: -20px;
+            left: -20px;
+            width: calc(100% + 40px);
+            height: calc(100% + 40px);
+            pointer-events: none;
+            z-index: -1;
+        }
+        @media (max-width: 768px) {
+            .certificate-container {
+                width: 95%;
+                padding: 40px;
+            }
+            .certificate-title {
+                font-size: 24pt;
+            }
+            .participant-name {
+                font-size: 18pt;
+            }
+            .event-details {
+                font-size: 14pt;
+            }
+            .presenter-info {
+                font-size: 11pt;
+            }
+            .signature {
+                font-size: 10pt;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="certificate-container">
+         <h2 class="certificate-title">CERTIFICADO DE PARTICIPAÇÃO</h2>
+        <p class="participant-name">Nome do Participante</p>
+        <p class="event-details">Realizado pela Marca Vitorino Artwork em 16 de maio de 2025, com duração de 2 horas.</p>
+        <p class="presenter-info">Ministrado por: <br><strong>Giovanna Furtado Vitorino</strong><br>(Formada em Design de Moda pelo IED SP, graduando no MBA de Estratégia de Mercado e Empreendedorismo pela FGV SP).</p>
+        <div class="signature">São Paulo, 16 de maio de 2025</div>
